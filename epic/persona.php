@@ -20,14 +20,14 @@
 		<li>Needs to establish dominance in First Person Shooters on Steam</li>
 		<li>Needs an easy/interactive chat/VoIP interface to connect with other Kyles.</li>
 		<li>Needs an easy/intuitive way to modify his profile and express his interests.</li>
-		<li>Wants a gaming experience that can be fueled by Monster Energy and Doritos </li>
+		<li>Wants a gaming experience that can be fueled by Monster Energy and Doritos. </li>
 	</ul>
 	<li><strong>Frustrations:</strong></li>
 	<ul>
-		<li>Strong Walls </li>
-		<li>Empty Monster Cans</li>
-		<li>LAGGG</li>
-		<li>Getting Pwnd by 6 Year olds</li>
+		<li>Having counter intuitive and limited community features.</li>
+		<li>Inability to seamlessly communicate with noobs he just pwnd or report cheaters.</li>
+		<li>Unable to share his passion of Monster Energy With the Kyle Community.</li>
+		<li>Inability to block trolls and haters.</li>
 	</ul>
 </ul>
 <p><a href="index.php">Data Design</a></p>
