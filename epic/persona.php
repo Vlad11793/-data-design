@@ -33,5 +33,6 @@
 <p><a href="index.php">Data Design</a></p>
 <p><a href="use-case-interaction.php">Use Case Interaction</a></p>
 <p><a href="user-story.php">User Story</a></p>
+<p><a href="ERD.PNG">ERD</a></p>
 </body>
 </html>

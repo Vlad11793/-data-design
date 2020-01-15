@@ -10,5 +10,6 @@
 <p><a href="persona.php">Persona</a></p>
 <p><a href="use-case-interaction.php">Use Case Interaction</a></p>
 <p><a href="index.php">Data Design</a></p>
+<p><a href="ERD.PNG">ERD</a></p>
 </body>
 </html>
