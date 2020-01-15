@@ -17,7 +17,7 @@
 	<li><strong>Attitude:</strong> Likes Monster Energy, prefers Mom's Credit Card, Regularly Banned for Toxic Behavior</li>
 	<li><strong>Needs/Goals/Features:</strong></li>
 	<ul>
-		<li>Needs to establish dominance in First Person Shooters on Steam</li>
+		<li>Needs to to make friends with like minded Kyles on Steam</li>
 		<li>Needs an easy/interactive chat/VoIP interface to connect with other Kyles.</li>
 		<li>Needs an easy/intuitive way to modify his profile and express his interests.</li>
 		<li>Wants a gaming experience that can be fueled by Monster Energy and Doritos. </li>
@@ -33,6 +33,6 @@
 <p><a href="index.php">Data Design</a></p>
 <p><a href="use-case-interaction.php">Use Case Interaction</a></p>
 <p><a href="user-story.php">User Story</a></p>
-<p><a href="ERD.PNG">ERD</a></p>
+<p><a href="conceptual-model.html">Conceptual Model</a></p>
 </body>
 </html>

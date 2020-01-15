@@ -28,6 +28,6 @@
 <p><a href="persona.php">Persona</a></p>
 <p><a href="index.php">Data Design</a></p>
 <p><a href="user-story.php">User Story</a></p>
-<p><a href="ERD.PNG">ERD</a></p>
+<p><a href="conceptual-model.html">Conceptual Model</a></p>
 </body>
 </html>

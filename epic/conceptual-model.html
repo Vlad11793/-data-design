@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Conceptual Model</title>
+</head>
+<body>
+<h2>Conceptual Model</h2>
+<h3>Entities &amp; Attributes:</h3>
+<p><strong>STEAM PROFILE:</strong>
+<ul>
+	<li>steamID (primary key)</li>
+	<li>steamName</li>
+	<li>steamEmail</li>
+	<li>steamProfilePic</li>
+	<li>steamTheme</li>
+	<li>steamProfileDetails</li>
+</ul>
+
+<p><strong>STEAM FRIENDS LIST:</strong>
+<ul>
+	<li>steamProfilesFriended(foreign key)</li>
+	<li>chatID (private key)</li>
+	<li>chatDate(private key)</li>
+	<li>chatEmote (private key)</li>
+</ul>
+<h3>Relations</h3>
+<ul>
+	<li>One profile may only be friended/linked to 1 friend/profile (1 to 1)</li>
+	<li>One chat can have many messages. (1 to n)</li>
+</ul>
+
+<h2>Entity Relationship Diagram</h2>
+<p><img src="ERD.PNG" alt="ERD"></p>
+
+</body>
+</html>

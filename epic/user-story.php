@@ -6,10 +6,10 @@
 </head>
 <body>
 <h2>User Story:</h2>
-<p>As a powerful user, Kyle would like to express his passion for Monster while playing the Latest First Person Shooters.</p>
+<p>As a powerful user, Kyle would like to friend other Monster Energy and First Person Shooters enthusiasts.</p>
 <p><a href="persona.php">Persona</a></p>
 <p><a href="use-case-interaction.php">Use Case Interaction</a></p>
 <p><a href="index.php">Data Design</a></p>
-<p><a href="ERD.PNG">ERD</a></p>
+<p><a href="conceptual-model.html">Conceptual Model</a></p>
 </body>
 </html>
