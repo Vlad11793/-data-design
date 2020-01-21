@@ -7,22 +7,31 @@
 <body>
 <h2>Conceptual Model</h2>
 <h3>Entities &amp; Attributes:</h3>
-<p><strong>STEAM PROFILE:</strong>
+<p><strong>STEAM PROFILE1:</strong>
 <ul>
-	<li>steamID (primary key)</li>
-	<li>steamName</li>
-	<li>steamEmail</li>
-	<li>steamProfilePic</li>
-	<li>steamTheme</li>
-	<li>steamProfileDetails</li>
+	<li>steamID1 (primary key)</li>
+	<li>steamName1</li>
+	<li>steamEmail1</li>
+	<li>steamProfilePi1c</li>
+	<li>steamTheme1</li>
+	<li>steamProfileDetails1</li>
 </ul>
 
-<p><strong>STEAM FRIENDS LIST:</strong>
+<p><strong>STEAM PROFILE2:</strong>
 <ul>
-	<li>steamProfilesFriended(foreign key)</li>
-	<li>chatID (private key)</li>
-	<li>chatDate(private key)</li>
-	<li>chatEmote (private key)</li>
+	<li>steamID2 (primary key)</li>
+	<li>steamName2</li>
+	<li>steamEmail2</li>
+	<li>steamProfilePic2</li>
+	<li>steamTheme2</li>
+	<li>steamProfileDetails2</li>
+</ul>
+<p><strong>CHAT:</strong>
+<ul>
+	<li>chatProfileID(foreign key)</li>
+	<li>chatID (primary key)</li>
+	<li>chatDate(primary key)</li>
+	<li>chatEmote(primary key)</li>
 </ul>
 <h3>Relations</h3>
 <ul>
@@ -31,7 +40,7 @@
 </ul>
 
 <h2>Entity Relationship Diagram</h2>
-<p><img src="ERD.png" alt="ERD"></p>
+<p><img src="erd.png" alt="erd"></p>
 
 
 <p><a href="persona.php">Persona</a></p>
