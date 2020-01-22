@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS chat;
-DROP TABLE IF EXISTS profile1;
 DROP TABLE IF EXISTS profile2;
+DROP TABLE IF EXISTS profile1;
 
 
 CREATE TABLE profile1 (
@@ -20,7 +20,7 @@ CREATE TABLE profile2 (
 
 	steamEmail2 VARCHAR(128) NOT NULL,
    steamId2 BINARY(16) NOT NULL,
-	steamName2 CHAR NOT NULL(32),
+	steamName2 CHAR(32) NOT NULL,
 	steamProfileDetails2 VARCHAR (8000),
 	steamProfilePic2 VARCHAR(140),
 	steamTheme2 VARCHAR(140),
@@ -37,7 +37,7 @@ CREATE TABLE chat (
 	chatSteamID BINARY(16) NOT NULL,
 
 	INDEX(chatProfileID),
-	FOREIGN  KEY(chatSteamID) REFERENCES profile(steamId),
+	FOREIGN  KEY(chatSteamID) REFERENCES profile1(steamId1),#might need profile2 and steamid2 original was REFERENCES profile(steamId)
 	PRIMARY KEY(chatID)
 
 );
