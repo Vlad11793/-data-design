@@ -7,36 +7,31 @@
 <body>
 <h2>Conceptual Model</h2>
 <h3>Entities &amp; Attributes:</h3>
-<p><strong>STEAM PROFILE1:</strong>
+<p><strong>Steam Account:</strong>
 <ul>
-	<li>steamID1 (primary key)</li>
-	<li>steamName1</li>
-	<li>steamEmail1</li>
-	<li>steamProfilePi1c</li>
-	<li>steamTheme1</li>
-	<li>steamProfileDetails1</li>
+	<li>steamID (primary key)</li>
+	<li>steamEmail</li>
+	<li>steamName</li>
+	<li>steamPhone</li>
 </ul>
 
-<p><strong>STEAM PROFILE2:</strong>
+<p><strong>Purchase:</strong>
 <ul>
-	<li>steamID2 (primary key)</li>
-	<li>steamName2</li>
-	<li>steamEmail2</li>
-	<li>steamProfilePic2</li>
-	<li>steamTheme2</li>
-	<li>steamProfileDetails2</li>
+	<li>purchaseId (primary key)</li>
+	<li>steamId (foreign key)</li>
+	<li>purchaseDate</li>
+	<li>productId(foreign Key)</li>
 </ul>
-<p><strong>CHAT:</strong>
+<p><strong>Product</strong>
 <ul>
-	<li>chatProfileID(foreign key)</li>
-	<li>chatID (primary key)</li>
-	<li>chatDate(primary key)</li>
-	<li>chatEmote(primary key)</li>
+	<li>productId(primary key)</li>
+	<li>productName</li>
+	<li>productQuantity</li>
 </ul>
 <h3>Relations</h3>
 <ul>
-	<li>One profile may only be friended/linked to 1 friend/profile (1 to 1)</li>
-	<li>One chat can have many messages. (1 to m)</li>
+	<li>One steam account can have 0 to many Purchases(1 to m)</li>
+	<li>One purchase can have 0 to many products (1 to m)</li>
 </ul>
 
 <h2>Entity Relationship Diagram</h2>
